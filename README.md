@@ -48,18 +48,6 @@ Java-проект для анализа и хранения данных о ми
 
 ### Структура проекта
 
-sityProject/
-├── src/
-│   ├── main/
-│   │   ├── java/com/example/happinessproject/
-│   │   │   ├── Country.java           # Модель данных для страны
-│   │   │   ├── CSVParser.java         # Логика парсинга CSV
-│   │   │   ├── DatabaseHandler.java   # Работа с SQLite
-│   │   │   ├── QueryHandler.java      # Выполнение SQL-запросов
-│   │   │   ├── Main.java              # Точка входа
-│   │   └── resources/
-│   │       └── sity.csv               # CSV-файл с данными
-│   └── test/                          # Юнит-тесты (если добавлены)
-├── pom.xml                            # Конфигурация Maven
-└── README.md                          # Документация проекта
+happiness-project/ ├── src/ │ ├── main/ │ │ ├── java/com/example/happinessproject/ │ │ │ ├── Country.java # Модель данных для страны │ │ │ ├── CSVParser.java # Логика парсинга CSV │ │ │ ├── DatabaseHandler.java # Работа с SQLite │ │ │ ├── QueryHandler.java # Выполнение SQL-запросов │ │ │ ├── Main.java # Точка входа │ │ └── resources/ │ │ └── sity.csv # CSV-файл с данными │ └── test/ # Юнит-тесты (если добавлены) ├── pom.xml # Конфигурация Maven └── README.md # Документация проекта
+
 
